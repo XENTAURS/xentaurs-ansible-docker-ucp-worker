@@ -1,5 +1,8 @@
 ---
 
+- include_role:
+    name: xentaurs-ansible-docker-engine
+
 - include: ucp-iptables.yml
 
 - name: "Wait for UCP controller to come up"
